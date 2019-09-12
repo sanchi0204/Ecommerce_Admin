@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">DwarfStar Admin</string>
+    <string name="name">Name</string>
+    <string name="username">username</string>
+    <string name="password">password</string>
+    <string name="login">Login</string>
+    <string name="add_category">Add Category</string>
+    <string name="delete_category">Delete Category</string>
+    <string name="prod_name">Product Name</string>
+    <string name="prod_description">Product Description</string>
+    <string name="prod_price">Product Price</string>
+    <string name="prod_add">Add Product</string>
+    <string name="prod_delete">Delete Product</string>
+    <string name="prod_type_2">AR Card</string>
+    <string name="prod_type_1">AR Selfie Stick</string>
+    <string name="company_name">Company Name</string>
+    <string name="add_product">ADD PRODUCT</string>
+    <string name="category_name">Category Name</string>
+    <string name="category_Description">Category Description</string>
+    <string name="Category_price">Category Price</string>
+    <string name="delete_product">Delete Product</string>
+</resources>

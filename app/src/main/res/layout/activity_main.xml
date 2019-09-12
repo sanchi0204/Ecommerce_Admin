@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@drawable/gradient">
+
+    <EditText
+        android:id="@+id/user_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:background="@drawable/button_box"
+        android:textColorHint="#fff"
+        android:layout_marginTop="250dp"
+        android:layout_centerHorizontal="true"
+        android:inputType="textPersonName"
+        android:hint="@string/username"
+        tools:layout_editor_absoluteX="40dp"
+        tools:layout_editor_absoluteY="88dp"
+        android:padding="10dp"/>
+
+    <EditText
+        android:id="@+id/password"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:background="@drawable/button_box"
+        android:textColorHint="#fff"
+        android:layout_below="@+id/user_name"
+        android:layout_marginTop="30dp"
+        android:layout_centerHorizontal="true"
+        android:hint="@string/password"
+        android:inputType="textPassword"
+        tools:layout_editor_absoluteX="40dp"
+        tools:layout_editor_absoluteY="215dp"
+        android:padding="10dp"/>
+
+    <Button
+        android:id="@+id/login_Button"
+        android:layout_below="@id/password"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:onClick="ifAnyDetailIsEmpty"
+        android:layout_marginTop="50dp"
+        android:text="@string/login"
+        android:background="@drawable/button_box_white"/>
+</RelativeLayout>

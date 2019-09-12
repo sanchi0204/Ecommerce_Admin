@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AdminCategory"
+    android:orientation="vertical"
+    android:padding="30dp">
+
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:textAlignment="center"
+        android:textAllCaps="true"
+        android:textStyle="bold"
+        android:textColor="#FFF"
+        android:text="@string/add_category"
+        android:onClick="addCategory"
+        android:background="@drawable/button_box_purple"
+        android:layout_marginTop="40dp"
+        />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:textAlignment="center"
+        android:textAllCaps="true"
+        android:textStyle="bold"
+        android:textColor="#FFF"
+        android:onClick="deleteCategory"
+        android:text="@string/delete_category"
+        android:background="@drawable/button_box_purple"
+        android:layout_marginTop="40dp"
+        />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:textAlignment="center"
+        android:textAllCaps="true"
+        android:textStyle="bold"
+        android:textColor="#FFF"
+        android:onClick="addProduct"
+        android:text="@string/add_product"
+        android:background="@drawable/button_box_purple"
+        android:layout_marginTop="40dp"
+        />
+
+
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:textAlignment="center"
+        android:textAllCaps="true"
+        android:textStyle="bold"
+        android:textColor="#FFF"
+        android:onClick="deleteProduct"
+        android:text="@string/prod_delete"
+        android:background="@drawable/button_box_purple"
+        android:layout_marginTop="40dp"
+        />
+
+
+
+
+</LinearLayout>
